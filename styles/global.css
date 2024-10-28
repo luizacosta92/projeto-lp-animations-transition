@@ -1,0 +1,49 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #000000;
+  --hightlights: #000000;
+  --background: #fafafa;
+
+  --brand-color-sun: #FFCD1E;
+  --brand-color-mid: #06B6D4;
+  --brand-color-sky-light: #67E8F9;
+  --brand-color-joy-mid: #DB2777; 
+  --brand-color-joy-light: #F472B6;
+  --brand-color-leaf-mid: #16A34A;
+
+  --ff-base: "Monteserrat", sans-serif;
+
+  --px-lg: 2rem;
+}
+
+html, button {
+  font: 500 1rem/1.5 var(--ff-base);
+
+  --text-sm: 0.875rem; 
+  --text-base: 1rem;
+  --text-lg: 2.5rem;
+  --text-xl: 4 rem;
+}
+
+h1, h2 {
+  font-family: 'Syne', sans-serif;
+}
+
+h1 {
+  font-size: var(--text-xl);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--text-lg);
+  line-height: 1.2;
+}
+
+body {
+  background-color: deeppink;
+}
