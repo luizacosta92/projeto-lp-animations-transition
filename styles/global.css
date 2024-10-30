@@ -27,7 +27,7 @@ html, button {
   --text-sm: 0.875rem; 
   --text-base: 1rem;
   --text-lg: 2.5rem;
-  --text-xl: 4 rem;
+  --text-xl: 4rem;
 }
 
 h1, h2 {
@@ -37,6 +37,7 @@ h1, h2 {
 h1 {
   font-size: var(--text-xl);
   line-height: 1.25;
+
 }
 
 h2 {
