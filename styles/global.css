@@ -30,8 +30,7 @@ html, button {
   --text-xl: 4rem;
 }
 
-html {
-  zoom: .5;
+html {;
 }
 
 h1, h2 {
